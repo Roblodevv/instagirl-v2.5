@@ -1,5 +1,0 @@
-
-module(name = "instagirl_comfyui")
-
-bazel_dep(name = "io_bazel_rules_docker", version = "0.24.2")
-

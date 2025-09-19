@@ -1,0 +1,6 @@
+oci_push(
+    name = "push_custom_image",
+    image = ":custom_image",
+    repository = "index.docker.io/roblodev/comfyui-instagirl-v2.5",
+    remote_tags = ["latest"]
+)

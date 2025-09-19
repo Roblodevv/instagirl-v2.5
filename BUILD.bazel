@@ -12,6 +12,6 @@ load("@io_bazel_rules_docker//container/push.bzl", "oci_push")
 oci_push(
     name = "push_comfyui_image",
     image = ":comfyui_image",
-    repository = "index.docker.io/ROBL0DEV/comfyui-instagirl-v2.5",
+    repository = "index.docker.io/roblodev/comfyui-instagirl-v2.5",
     remote_tags = ["latest"],
 )

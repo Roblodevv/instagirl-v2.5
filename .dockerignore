@@ -1,0 +1,49 @@
+# Игнорируем системные файлы
+.git
+.gitignore
+.gitmodules
+.DS_Store
+Thumbs.db
+
+# Игнорируем логи и кэш
+*.log
+*.tmp
+*.swp
+*~
+.cache/
+
+# Игнорируем виртуальные окружения Python
+venv/
+env/
+.venv/
+
+# Игнорируем кэш Python
+__pycache__/
+*.py[cod]
+.python-version
+
+# Игнорируем документацию и файлы для разработки
+README.md
+LICENSE
+docs/
+tests/
+test/
+examples/
+
+# Игнорируем конфигурационные файлы редакторов
+.vscode/
+.idea/
+*.sublime-*
+
+# Игнорируем большие файлы данных (если они есть локально)
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Игнорируем уже скачанные модели (чтобы не дублировать)
+models/
+# Но осторожно: если у вас есть кастомные конфиги для models, их нужно исключить из игнорирования
+!models/configs/
+!models/custom_nodes/
